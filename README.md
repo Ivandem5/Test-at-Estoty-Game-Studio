@@ -8,6 +8,8 @@ Since no details were given about the features of enemy spawning and their limit
 For ease of use, I decided to store enemy settings in a ScriptableObject. 
 In the future, this practice can be expanded to the configuration of the player and spawners.
 
+I decided to make the player's collisions with enemies without physical collision. So that the player can escape through some of the enemies by sacrificing HP.
+
 [Animation]
 Since there are not many animations at the moment, I decided to do without using Animancer.
 
